@@ -1,0 +1,40 @@
+.container {
+	background-color: pink;
+}
+
+/*==============================*/
+/*======REUSABLE ELEMENTS=======*/
+/*==============================*/
+
+.logo {
+	height: 10%;
+	width: auto;
+}
+
+header {
+	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/grandma.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	background-attachment: fixed;
+}
+
+.hero-text-box {
+	text-align: center;
+	position: absolute;
+	top: 45%;
+	left: 40%;
+	padding: 10px 10px;
+}
+
+.hero-text {
+	font-size: 300%;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.hero-text2 {
+	font-size: 100%;
+	color: #fff;
+	text-transform: uppercase;
+}
