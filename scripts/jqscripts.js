@@ -26,12 +26,6 @@ $(document).ready(function() {
 		$('html,body').animate({scrollTop: $('.js--gears-section').offset().top},1000);
 	});
 	
-
-
-
-
-
-
 	$('.careers-section').click(function(){
 		$('html,body').animate({scrollTop: $('.js--careers-section').offset().top},1000);
 	});
