@@ -4,38 +4,39 @@
 		<title>ASI Services - Draft 1</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!--bootstrap-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="styles/main.css">
-
+		<link rel="stylesheet" href="styles/animate.css">
 		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-
-
-		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
 
 	<body>
+
+
+
+
+
+
 		<header class="header-section container">	
-		<!-- 	<img src="styles/images/asi-logo.png" alt="asi logo" class="logo">
-			 -->
 			<nav class="nav navbar-nav navbar-right navbar-fixed-top">
 				<img src="styles/images/asi-logo.png" alt="asi logo" class="logo">
+				<img src="styles/images/asi-logo-small.png" alt="asi logo" class="logo-small">
 				<ul class="nav navbar-nav">
 					<li><a href="#">Home</a></li>
-					<li><a href="#">How It Works</a></li>
-					<li><a href="#">Info Center</a></li>
-					<li><a href="#">Careers</a></li>
-					<li><a href="#">About ASI</a></li>
-					<li><a href="#">Contact Us</a></li>
+					<li class="process-section"><a href="#process-section">How It Works</a></li>
+					<li class="gears-section"><a href="#gears-section">Info Center</a></li>
+					<li class="careers-section"><a href="#careers-section">Careers</a></li>
+					<li class="testimony-section"><a href="#testimony-section">About ASI</a></li>
+					<li class="form-section"><a href="#form-section">Contact Us</a></li>
 				</ul>
 			</nav>
-
 			<div class="hero-text-box text-center">
 				<h1 class="hero-text text-center">ASI Services</h1>
 				<h2 class="text-center">Home Care Agency of Choice</h2>
 				<h4 class="hero-text2 text-center">Provide quality home care services throughout metropolitan Chicago</h4>
-				<button type="button" class="btn">Contact Us</button>
+				<button type="button" class="btn js--scroll-to-process-section">How It Works</button>
+				<button type="button" class="btn js--scroll-to-form-section">Free Consultation</button>
 			</div>
 		</header>
 
@@ -46,18 +47,15 @@
 
 
 
-		<section class="blurb-section container text-center">
-			<h1>ASI Home Health Care Customized For You</h1>
-			<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sollicitudin velit quam, vel gravida enim blandit sed. Mauris ac odio mollis, tincidunt tellus eget, gravida odio. Fusce iaculis urna at ligula pellentesque viverra</h4>
-		</section>			
+			
 		
 
 
 
 
-		<section class="process-section container">
+		<section class="process-section js--process-section container" id="process-section">
 			<div class="row">
-				<div class="page-header text-center"><h1>How the Process Works</h1></div>
+				<div class="page-header text-center"><h1>How It Works</h1></div>
 				<div class="col-md-4">
 					<h4><img src="styles/images/nurse_icon.png" class="icon" width="15%" height="auto">Lorem Ipsum</h4>
 					<ul class="bullet-copy">
@@ -66,7 +64,6 @@
 						<li>Mauris ac odio mollis, tincidunt tellus eget, gravida odio.</li> 
 						<li>Fusce iaculis urna at ligula pellentesque viverra.</li>
 					</ul>
-					
 				</div>
 				<div class="col-md-4">
 					<h4><img src="styles/images/doctor.png" class="icon" width="15%" height="auto">Lorem Ipsum</h4>
@@ -86,12 +83,6 @@
 						<li>Fusce iaculis urna at ligula pellentesque viverra.</li>
 					</ul>
 				</div>
-				
-
-
-
-
-				
 				<div class="col-md-4">
 					<h4><img src="styles/images/heart_magnifier.png" class="icon"  width="15%" height="auto">Lorem Ipsum</h4>
 					<ul>
@@ -100,7 +91,6 @@
 						<li>Mauris ac odio mollis, tincidunt tellus eget, gravida odio.</li> 
 						<li>Fusce iaculis urna at ligula pellentesque viverra.</li>
 					</ul>
-					
 				</div>
 				<div class="col-md-4">
 					<h4><img src="styles/images/ambulance.png" class="icon" width="15%" height="auto">Lorem Ipsum</h4>
@@ -120,46 +110,38 @@
 						<li>Fusce iaculis urna at ligula pellentesque viverra.</li>
 					</ul>
 				</div>
-
-
-
-
-
-
-
-
-
 			</div>
-			
 		</section>
 
 
-		<section class="blurb-section container text-center">
-			<h1>ASI Home Health Care Customized For You</h1>
+
+
+
+
+
+
+		<section class="blurb-section js--blurb-section container">
+			<div class="page-header text-center"><h1>ASI Home Health Care Customized For You</h1></div>
 			<h4>ASI is a full post-acute care continuum system. Creates improved health care coordination and monitoring of patients outside of the hospital and within the community. It improves patient compliance, therapy management, and fall prevention.</h4>
 		</section>	
 
-
-
-
-
-
-
-
 		
-		
-<!-- 		<section class="office-section container">
-			<div class="row">
-				<div class="page-header text-center">
-				<h1>Locations</h1>
-				</div>
-				<div class="col-md-6"></div>
-			</div>	
-		</section> -->
 
 
 
-		<section class="gears-section container">
+
+
+
+
+
+
+
+
+
+
+
+
+		<section class="gears-section js--gears-section container" id="gears-section">
 			<div class="row">
 				<div class="page-header text-center"><h1>Lorem ipsum dolor sit amet</h1></div>
 				<div class="col-md-4">
@@ -182,6 +164,85 @@
 		</section>
 
 
+
+
+
+
+		<section class="careers-section js--careers-section container" id="careers-section">
+			<div class="row">
+				<div class="page-header text-center"><h1>Careers at ASI</h1></div>	
+				<div class="col-md-6">
+	  				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+				</div>
+				<div class="col-md-6">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+				</div>
+			</div>
+		</section>
+
+
+
+
+
+
+
+
+
+		
+
+		<section class="blurb-section js--blurb-section container">
+			<div class="page-header text-center"><h1>ASI Home Health Care Customized For You</h1></div>
+			<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sollicitudin velit quam, vel gravida enim blandit sed. Mauris ac odio mollis, tincidunt tellus eget, gravida odio. Fusce iaculis urna at ligula pellentesque viverra</h4>
+		</section>
+
+
+
+
+
+
+
+
+		<section class="testimony-section js--testimony-section container" id="testimony-section">
+			<div class="row">
+				<div class="page-header text-center"><h1>What People Are Saying About ASI</h1></div>	
+				<div class="col-md-6">
+					<blockquote>
+	  				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+					<cite><img src="styles/images/customer-1.jpg">Customer 1</cite></blockquote>
+				</div>
+				<div class="col-md-6">
+					<blockquote>
+	  				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+					<cite><img src="styles/images/customer-2.jpg">Customer 2</cite></blockquote>
+				</div>
+
+				<div class="col-md-6">
+					<blockquote>
+	  				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+					<cite><img src="styles/images/customer-1.jpg">Customer 1</cite></blockquote>
+				</div>
+				<div class="col-md-6">
+					<blockquote>
+	  				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+					<cite><img src="styles/images/customer-2.jpg">Customer 2</cite></blockquote>
+				</div>
+			</div>
+		</section>
+
+
+
+
+
+
+		<section class="blurb-section js--blurb-section container text-center" id="blurb-section">
+			<div class="page-header text-center"><h1>What makes us different?</h1></div>
+			<h4>We treat dual eligible patients. Our services include a transportation system for patients who need a ride to the doctor and home medical equipment. ASI is an all-inclusive agency providing multilingual competent services.</h4>
+		</section>		
+
+
+
+		
+		
 		
 
 
@@ -189,77 +250,36 @@
 
 
 
-		<section class="testimony-section container">
+
+
+
+
+		<section class="form-section js--form-section container" id="form-section">
 			<div class="row">
-				<h1 class="page-header text-center">What People Are Saying About ASI</h1>	
-				
-				<div class="col-md-6">
-					<blockquote>
-	  				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-					<cite><img src="styles/images/customer-1.jpg">Customer 1</cite></blockquote>
-				</div>
-				<div class="col-md-6">
-					<blockquote>
-	  				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-					<cite><img src="styles/images/customer-2.jpg">Customer 2</cite></blockquote>
-				</div>
-
-				<div class="col-md-6">
-					<blockquote>
-	  				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-					<cite><img src="styles/images/customer-1.jpg">Customer 1</cite></blockquote>
-				</div>
-				<div class="col-md-6">
-					<blockquote>
-	  				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-					<cite><img src="styles/images/customer-2.jpg">Customer 2</cite></blockquote>
-				</div>
-				
-
-
-
-
-			</div>
-		</section>
-
-
-		<section class="blurb-section container text-center">
-			<h1>What makes us different?</h1>
-			<h4>We treat dual eligible patients. Our services include a transportation system for patients who need a ride to the doctor and home medical equipment. ASI is an all-inclusive agency providing multilingual competent services.</h4>
-		</section>		
-
-
-
-
-
-
-
-		<section class="form-section container">
-			<div class="row">
-				<div>
-					<h1 class="page-header text-center">Schedule A Free Consultation</h1>
+				<div class="page-header text-center">
+					<h1>Schedule A Free Consultation</h1>
+				</div>	
 					<form class="form-horizontal">
 						<div class="form-group">
-						    <label for="inputEmail3" class="col-sm-2 control-label">Name</label>
+						    <label for="name" class="col-sm-2 control-label">Name</label>
 						    <div class="col-sm-10">
 						      <input type="email" class="form-control" id="inputEmail3" placeholder="Name" required>
 						    </div>
 						</div>	
-
 						<div class="form-group">
-						    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+						    <label for="email" class="col-sm-2 control-label">Email</label>
 						    <div class="col-sm-10">
 						      <input type="email" class="form-control" id="inputEmail3" placeholder="Email" required>
 						    </div>
 						</div>
 						<div class="form-group">
-						    <label for="inputPassword3" class="col-sm-2 control-label">Phone</label>
+						    <label for="phone" class="col-sm-2 control-label">Phone</label>
 						    <div class="col-sm-10">
 						      <input type="tel" class="form-control" id="inputPassword3" placeholder="Phone" required>
 						    </div>
 						</div>
 						<div class="form-group">
-						    <label for="inputPassword3" class="col-sm-2 control-label">Comments</label>
+						    <label for="comments" class="col-sm-2 control-label">Comments</label>
 						    <div class="col-sm-10">
 							<textarea class="form-control" rows="3"></textarea>
 							</div>
@@ -276,6 +296,9 @@
 
 
 
+
+
+
 		<footer class="container">
 			<p>
 				WHAT TO EXPECT working with ASI
@@ -284,7 +307,7 @@
  				<p></p>
 				The initial in-home assessment focuses on determining the safety risks and challenges facing a client.  Additionally, it's an opportunity for clients to ask questions and make specific requests relative to their care plan.
  				<p></p>
-​				Personalized Care Plans are then presented by ASI and 					agreed upon by all parties before 'Matching.'  				 		Matching a client to a caregiver is based on personalities, personal preferences (likes and dislikes), primary language, skill requirements, certifications, etc.
+​				Personalized Care Plans are then presented by ASI and agreed upon by all parties before 				'Matching.' Matching a client to a caregiver is based on personalities, personal 						preferences (likes and dislikes), primary language, skill requirements, certifications, 				etc.
 			</p>
 		</footer>
 
@@ -299,7 +322,9 @@
 
 
 
-
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script src="scripts/app.js"></script>
+	<script src="scripts/jquery.waypoints.min.js"></script>
+	<script src="scripts/jqscripts.js"></script>
 	</body>
 </html>
