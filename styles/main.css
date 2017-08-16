@@ -20,13 +20,17 @@ h2,
 h3,
 h4 {
 	font-weight: 300;
-	text-transform: uppercase;
-	
-	
+	//text-transform: uppercase;
 }
+
+
 
 h2 {
 	color: #fff;
+}
+
+p {
+	font-weight: 300;
 }
 
 
@@ -42,9 +46,13 @@ img.icon {
 	margin-bottom: 10px;
 }
 
+ul,
+p {
+	font-size: 110%;
+}
 
 /*==============================*/
-/*===HEADER and NAVIGATION======*/
+/*============HEADER============*/
 /*==============================*/
 
 
@@ -86,6 +94,10 @@ header {
 	margin-top: 15px;
 	margin-left: 55px;
 }
+
+/*==============================*/
+/*==========NAVIGATION==========*/
+/*==============================*/
 
 
 .navbar-nav {
@@ -153,8 +165,6 @@ button:hover {
 	width: 100%;
 	height: 10%;
 	background-color: rgba(255,255,255,.7);
-	//background-color: red;
-	//box-shadow: 0 2px 2px #fefefe;
 	box-shadow: 0 2px 2px #fefefe;
 	z-index: 9999;
 }
@@ -183,39 +193,52 @@ button:hover {
 
 
 /*==============================*/
-/*======BLURB SECTIONS=======*/
+/*=========BLURB SECTIONS=======*/
 /*==============================*/
 
-// .blurb-section {
-// 	background-color: rgba(182,214,172,.3);
-// 	height: 50vh;
-// 	color: #58585a;
-// 	font-size: 300%;
-// 	padding: 20px 20px;
+.blurb-section {
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url(images/nurse.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
 
-// }
-/*==============================*/
-/*======HOW IT WORKS SECTIONS=======*/
-/*==============================*/
+
+	height: 50vh;
+	color: #58585a;
+	color: #fff;
+	//font-size: 300%;
+	//padding: 20px 20px;
+
+}
+
+
+h3, 
+ {
+	padding: 10px 25px;
+}
+/*==================================*/
+/*===HOW IT WORKS/PROCESS SECTIONS===*/
+/*===================================*/
 
 .process-section {
 	// background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/nurse.jpg);
 	// background-size: cover;
 	// background-position: center;
+	
 	height:100vh;
 }
+
+.process-section-box,
+.careers-section-box {
+	background-color: rgba(182,214,172,.3);	
+}
+
 
 
 /*==============================*/
 /*======OFFICE SECTION=======*/
 /*==============================*/
 
-.office-section {
-	background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(images/chicago.jpg);
-	background-size: cover;
-	background-position: center;
-	height: 100vh;
-}
 
 
 
@@ -232,7 +255,7 @@ blockquote {
 	color: #3c8f7e;
 	padding: 2%;
 	font-style: italic;
-	line-height: 145%;
+	line-height: 120%;
 	position: relative;
 	margin-top: 40px;
 }
@@ -248,7 +271,7 @@ blockquote {
 
 
  cite {
- 	font-size: 90%;
+ 	font-size: 85%;
  	margin-top: 5px;
  	display: block;
  }
@@ -260,41 +283,33 @@ blockquote {
  	//vertical-align: middle;
  }
 
-/*==============================*/
-/*======CAREERS SECTION=======*/
-/*==============================*/
+/*===================================*/
+/*====INFORMATION CENTER SECTION=====*/
+/*===================================*/
 
 
 
-/*==============================*/
-/*======FORM SECTION=======*/
-/*==============================*/
-
-//form {
-	//background-color: blue;
-
-//}
-
-// .js--wp-1 {
-// 	opacity: 0;
-// 	-webkit-animation-duration: 1s;
-// 	animation-duration: 1s;
-// }
+/*===================================*/
+/*==========CAREERS SECTION==========*/
+/*===================================*/
 
 
-// .js--wp-1 .animated {
-// 	opacity: 1;
-// }
-
-/*==============================*/
-/*======ANIMATED=======*/
-/*==============================*/
+/*=====================================*/
+/*==========TESTIMONY SECTION==========*/
+/*=====================================*/
 
 
 
-/*========================*/
-/*FOOTER*/
-/*========================*/
+/*==================================*/
+/*============FORM SECTION==========*/
+/*==================================*/
+
+
+
+
+/*==================================*/
+/*================FOOTER============*/
+/*==================================*/
 
 footer {
 	background-color: #333; 
@@ -377,4 +392,4 @@ footer p {
 }
 
 
-
+/

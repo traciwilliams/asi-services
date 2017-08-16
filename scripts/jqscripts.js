@@ -1,5 +1,5 @@
 
-/*sicky nav*/
+/*sticky nav*/
 $(document).ready(function() {
 	$('.js--process-section').waypoint(function(direction){
 		if(direction == "down") {
